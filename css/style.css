@@ -807,6 +807,20 @@ body {
 	.header__content {
 		padding-top: 70px;
 	}
+	.our-works-block__header {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.our-works-block__header>span {
+		min-width: 200px;
+		text-align: center;
+	}
 }
 /*sm*/
 @media (min-width: 576px) and (max-width: 767.98px) {
